@@ -1,0 +1,6 @@
+.DS_Store
+.ipynb*
+venv
+*__pycache__
+data/raw/COVID-19
+*.csv
