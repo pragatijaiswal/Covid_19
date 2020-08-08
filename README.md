@@ -9,4 +9,4 @@
 3. virtualenv venv
 4. pip install -r requirements.txt
 5. python launch_app.py
-6. Open localhost:8050
+6. Open http://localhost:8050
