@@ -94,9 +94,9 @@ app.layout = html.Div([
 def update_figure(country_list,show_doubling):
 
 
-    if 'doubling_rate' in show_doubling:
+    if 'DR' in show_doubling:
         my_yaxis={'type':"log",
-               'title':'Approximated doubling rate over 3 days (larger numbers are better #stayathome)'
+               'title':'Approximated doubling rate over 3 days (larger numbers are better)'
               }
     else:
         my_yaxis={'type':"log",
@@ -158,7 +158,7 @@ def update_figure_(country):
                             y=data['confirmed'],
                             opacity=0.9,
                             name='actual')
-        fig.update_layout(height = 700)
+        fig.update_layout(height = 700, xaxis_title="Date", yaxis_title="Population infected")
     return fig
 
 if __name__ == '__main__':
