@@ -11,6 +11,7 @@ The data used for this project has been taken from https://github.com/CSSEGISand
 1. git clone https://github.com/pragatijaiswal/Covid_19.git
 2. cd Covid_19
 3. virtualenv venv
-4. pip install -r requirements.txt
-5. python launch_app.py
-6. Open http://localhost:8050
+4. venv\Scripts\activate
+5. pip install -r requirements.txt
+6. python launch_app.py
+7. Open http://localhost:8050
